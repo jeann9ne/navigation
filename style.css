@@ -135,8 +135,9 @@ p {
 }
 
 .project-body {
-    width: 40%;
-
+    width: 60%;
+    position: relative;
+    top: 50px;
 }
 
 hr.solid {
@@ -144,7 +145,11 @@ hr.solid {
   }
 
 .project-title {
-    margin: 50px;
+    margin: 5px;
+}
+
+.projects {
+    list-style: none;
 }
 
 @media only screen and (max-width: 920px){
