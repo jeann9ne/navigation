@@ -105,6 +105,20 @@ p {
     transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
 
+}
+.project-btn {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px; 
+    color: #000;
+    border: 4px solid #000;
+    text-align: center;
+    outline: none; 
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
 .btn:hover,.btn:active  {
     background-color: #fff;
     color: orange;
@@ -115,14 +129,17 @@ p {
     padding: 40px 20px 60px 20px;
 }
 
+.round{
+    border-right: solid 3px #000;
+    border-left: solid 3px #000;
+}
+
 .profile-pic {
     float: left;
     border-radius: 50%;
     width:300px;
     height:300px;
     margin: 0px 50px 0px 50px;
-    border-right: solid 3px #000;
-    border-left: solid 3px #000;
 }
 
 .project-pic {
