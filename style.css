@@ -4,6 +4,11 @@
 
 }
 
+@font-face {
+    src: url(fonts/PlaytimeWithHotToddies3D-webfont.woff);
+    font-family: nos;
+}
+
 ul {
     
     font-family: "plexifont", sans-serif;
@@ -34,10 +39,6 @@ body {
     width: 100%;
 }
 
-@font-face {
-    font-family:"Plexifont";
-    src: url("plexifont-webfont.eot");
-}
 .img-container {
     background-image: url(./Images/leaves.jpg);
     width: 100vw;
@@ -59,7 +60,7 @@ body {
 
 h1 {
     font-size: 7em;
-    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    font-family: nos, sans-serif;
 }
 
 h2 {
@@ -105,6 +106,7 @@ p {
     transition: background-color 0.2s ease-out, color 0.2s ease-out;
 }
 
+
 }
 .project-btn {
     display: inline-block;
@@ -129,17 +131,14 @@ p {
     padding: 40px 20px 60px 20px;
 }
 
-.round{
-    border-right: solid 3px #000;
-    border-left: solid 3px #000;
-}
-
 .profile-pic {
     float: left;
     border-radius: 50%;
     width:300px;
     height:300px;
     margin: 0px 50px 0px 50px;
+    border-right: solid 3px #000;
+    border-left: solid 3px #000;
 }
 
 .project-pic {
