@@ -9,6 +9,11 @@
     font-family: nos;
 }
 
+
+div#container > p {
+    border: 1px solid black;
+  }
+  
 ul {
     
     font-family: "plexifont", sans-serif;
@@ -48,6 +53,7 @@ body {
     background-size: cover;
     position: relative;
 }
+
 
 .inner-container {
     text-align: center;
@@ -166,6 +172,20 @@ hr.solid {
 
 .projects {
     list-style: none;
+}
+
+.blog-post {
+    clear: both;
+}
+
+.blog-header {
+        background-image: url(./Images/leaves.jpg);
+        width: 100vw;
+        height: 80vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
 }
 
 @media only screen and (max-width: 920px){
